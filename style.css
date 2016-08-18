@@ -15,14 +15,6 @@ h2 {
   color:#34495e;
 }
 
-.main h3 {
-  font-size:20px;
-  padding:10px;
-  color: #fff;
-  background-color:#34495e;
-  text-align: center;
-}
-
 a {
   text-decoration: none;
   color:#34495e;
@@ -79,8 +71,8 @@ header {
 }
 
 .main {
-  margin-left: 15% ;
-  margin-right:15%;
+  width:950px;
+  margin: 0 auto;
   margin-top:100px;
   padding:40px;
   /*background-color: rgba(205, 201,	201, 0.5);*/
@@ -88,6 +80,19 @@ header {
 
 .main p{
   padding:10px;
+  display: inline-block;
+  width:900px;
+}
+
+.main h3 {
+  font-size:22px;
+  padding:10px;
+  color: #34495e;
+}
+
+.cont {
+  border:2px solid #34495e;
+  margin:10px;
 }
 
 .wrapper {
@@ -102,7 +107,7 @@ header {
 }
 
 .design-selection nav {
-  margin-top:-5.45px;
+  margin-top:-5.60px;
 }
 
 .design-selection h3 {
